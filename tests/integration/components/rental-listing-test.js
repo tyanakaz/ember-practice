@@ -30,7 +30,7 @@ module('Integration | Component | rental-listing', function(hooks) {
     await click('.image');
     assert.ok(this.element.querySelector('.image.wide'), 'rendered wide after click');
     await click('.image');
-  　assert.notOk(this.element.querySelector('.image.wide'), 'rendered small after second click');
+    assert.notOk(this.element.querySelector('.image.wide'), 'rendered small after second click');
   });
 
 });
